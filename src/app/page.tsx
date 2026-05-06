@@ -110,7 +110,7 @@ export default function Home() {
       </main>
 
       {/* Fixed Bottom Interaction Panel */}
-      <div className="fixed bottom-0 left-0 right-0 flex justify-center pointer-events-none">
+      <div className="fixed bottom-0 left-0 right-0 flex justify-center pointer-events-none z-10">
         <div className="w-full max-w-2xl px-4 pb-10 pt-16 bg-gradient-to-t from-zinc-950 via-zinc-950/95 to-transparent flex flex-col items-center gap-4 pointer-events-auto">
 
           {/* Contextual Suggestion Chips */}
